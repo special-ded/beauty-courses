@@ -1,0 +1,35 @@
+.container {
+  .header {
+    padding: 0px 20px 0px 20px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../../assets/img/main.JPG);
+    text-align: center;
+    .title h1 {
+      font-family: "Bodoni Moda", serif;
+      font-weight: 400;
+      font-size: 40px;
+      color: #d94453;
+    }
+    .title p {
+      font-weight: 400;
+      font-size: 20px;
+      color: white;
+      background: #d94453;
+      font-family: "Bodoni Moda", serif;
+    }
+
+    .wrapper {
+      padding-top: 500px;
+      .dates {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+      }
+      .register-btn {
+      }
+    }
+  }
+}
