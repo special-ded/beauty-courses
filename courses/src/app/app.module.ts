@@ -7,9 +7,12 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
+import { PaymentComponent } from './pages/payment/payment.component';
+import { ConditionsComponent } from './pages/conditions/conditions.component';
+import { PolicyComponent } from './pages/policy/policy.component';
 
 @NgModule({
-  declarations: [AppComponent, PageNotFoundComponent, ForVisagisteComponent],
+  declarations: [AppComponent, PageNotFoundComponent, ForVisagisteComponent, PaymentComponent, ConditionsComponent, PolicyComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

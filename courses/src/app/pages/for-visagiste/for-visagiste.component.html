@@ -11,7 +11,10 @@
       <div class="button">
         <a href="#register" class="register-btn">ЗАРЕЄСТРУВАТИСЯ </a>
         <div>
-          <img class="arrow" src="../../../assets/img/right-arrow(2).svg" />
+          <img
+            class="button__arrow"
+            src="../../../assets/img/right-arrow(2).svg"
+          />
         </div>
       </div>
     </div>
@@ -166,9 +169,6 @@
     <section class="slider">
       <mdb-carousel [controls]="true" [indicators]="true">
         <mdb-carousel-item>
-          <img src="assets/img/slider/circle.JPG" class="d-block w-100" />
-        </mdb-carousel-item>
-        <mdb-carousel-item>
           <img src="assets/img/slider/IMG_1709.JPG" class="d-block w-100" />
         </mdb-carousel-item>
         <mdb-carousel-item>
@@ -188,9 +188,8 @@
         </mdb-carousel-item>
       </mdb-carousel>
     </section>
-
-    <section class="autor">
-      <div class="certificate">
+    <section class="author">
+      <div class="certificate rectangle">
         <img width="50" src="../../../assets/img/certificate.svg" />
         <div>
           <span>Кожен учасник отримає</span>
@@ -200,12 +199,62 @@
           <span>прослуховування онлайн-курсу</span>
         </div>
       </div>
-
-      <img />
+      <img
+        class="author-img"
+        width="300"
+        src="../../../assets/img/slider/circle.JPG"
+      />
       <h2>АВТОР КУРСУ</h2>
-      <h3>Альона Шпилька</h3>
+      <h3>Альона Шпілька</h3>
     </section>
-    <h2 id="register">Register</h2>
-    <section class="registration"></section>
+    <a id="register"></a>
+
+    <section class="registration">
+      <div class="certificate rectangle">
+        <div class="certificate__title">
+          <span>ОНЛАЙН КУРС</span>
+          <br />
+          <span>АЛЬОНИ ШПІЛЬКИ</span>
+        </div>
+        <div class="certificate__date">
+          <span>у записі</span>
+          <br />
+          <span>15-17 грудня</span>
+        </div>
+        <div class="certificate__lessons">
+          <span>4 макіяжі + 1 бонусний</span>
+          <br />
+          <span>сертифікат про навчання </span>
+          <br />
+          <span>доступ до 01 квітня 2023</span>
+        </div>
+        <p class="certificate__price">1750грн</p>
+        <div class="button">
+          <a href="#" class="register-btn">ЗАРЕЄСТРУВАТИСЯ </a>
+          <div>
+            <img
+              class="button__arrow"
+              src="../../../assets/img/right-arrow(2).svg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr width="100%" />
   </main>
+
+  <footer class="footer">
+    <ul class="links-list">
+      <li><a routerLink="/confidential-policy"> Політика конфіденційно</a></li>
+      <li><a routerLink="/payment">Способи оплати</a></li>
+      <li><a routerLink="/conditions">Умови надання послуг</a></li>
+    </ul>
+    <a
+      target="_blank"
+      href="https://www.instagram.com/alena_shpilka_makeup/?igshid=MjkzY2Y1YTY%3D"
+    >
+      <img class="insta" width="40" src="../../../assets/img/insta2.svg"
+    /></a>
+  </footer>
+  <p>© Альона Шпілька</p>
 </div>

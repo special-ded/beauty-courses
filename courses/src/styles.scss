@@ -35,6 +35,12 @@ body {
     background: $product-button-bg-active;
   }
 }
+.rectangle {
+  border: 1px solid black;
+  background-color: #d94453;
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
 
 p,
 h1,
