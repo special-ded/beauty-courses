@@ -306,5 +306,13 @@
 
   .footer {
     margin-top: 50px;
+    text-align: center;
+    .links-list {
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
   }
 }
