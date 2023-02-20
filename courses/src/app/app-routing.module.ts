@@ -5,6 +5,7 @@ import { ForVisagisteComponent } from './pages/for-visagiste/for-visagiste.compo
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { PaymentComponent } from './pages/payment/payment.component';
 import { PolicyComponent } from './pages/policy/policy.component';
+import { RegistrationComponent } from './pages/registration/registration.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,11 @@ const routes: Routes = [
     path: 'conditions',
     pathMatch: 'full',
     component: ConditionsComponent,
+  },
+  {
+    path: 'registration',
+    pathMatch: 'full',
+    component: RegistrationComponent,
   },
   { path: '**', component: PageNotFoundComponent },
 ];

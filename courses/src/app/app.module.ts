@@ -10,9 +10,10 @@ import { FormsModule } from '@angular/forms';
 import { PaymentComponent } from './pages/payment/payment.component';
 import { ConditionsComponent } from './pages/conditions/conditions.component';
 import { PolicyComponent } from './pages/policy/policy.component';
+import { RegistrationComponent } from './pages/registration/registration.component';
 
 @NgModule({
-  declarations: [AppComponent, PageNotFoundComponent, ForVisagisteComponent, PaymentComponent, ConditionsComponent, PolicyComponent],
+  declarations: [AppComponent, PageNotFoundComponent, ForVisagisteComponent, PaymentComponent, ConditionsComponent, PolicyComponent, RegistrationComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
