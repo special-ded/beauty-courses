@@ -1,0 +1,72 @@
+.container {
+  font-family: "Cormorant Garamond", serif;
+  background-color: rgb(222, 222, 222);
+  text-align: center;
+
+  .title {
+    padding: 20px 0px;
+    h1 {
+      font-weight: 700;
+      font-size: 40px;
+    }
+    p {
+      color: rgb(193, 70, 70);
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+  .course-info {
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    ul {
+      overflow: hidden;
+      white-space: nowrap;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .price {
+        font-weight: 600;
+        font-size: 34px;
+      }
+    }
+  }
+  .image-wrapper {
+    img {
+      border-radius: 20px;
+    }
+  }
+
+  .payment {
+    .card-details {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      font-weight: 500;
+      font-size: 25px;
+
+      & p:last-child {
+        font-family: "Montserrat", serif;
+        color: black;
+        font-weight: 500;
+        font-size: 30px;
+      }
+    }
+    .explanations {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      font-weight: 500;
+      font-size: 25px;
+      padding-bottom: 25px;
+
+      a {
+        font-weight: 600;
+        font-size: 25px;
+      }
+    }
+  }
+}
