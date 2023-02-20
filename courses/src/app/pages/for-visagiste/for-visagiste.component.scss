@@ -31,7 +31,7 @@
         color: rgb(255, 255, 255);
       }
       .register-btn {
-        padding: 20px 58px 20px 58px;
+        padding: 20px 45px 20px 45px;
         color: white;
       }
       .button__arrow {
@@ -75,6 +75,8 @@
     }
 
     hr {
+      display: block;
+      margin: 10px auto;
       width: 100px;
       color: black;
     }
@@ -101,7 +103,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(../../../assets/img/model2.JPG);
+    background-image: url(../../../assets/img/model2.jpg);
     padding-top: 10px;
     color: black;
 
