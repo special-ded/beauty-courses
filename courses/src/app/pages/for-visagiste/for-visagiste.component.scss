@@ -29,6 +29,10 @@
 
     .wrapper {
       padding-top: 500px;
+
+      @media screen and (max-width: 380px) {
+        padding-top: 400px;
+      }
       .dates h6 {
         font-family: "Cormorant Garamond", serif;
         font-size: 50px;
@@ -81,6 +85,10 @@
     h2 {
       font-size: 36px;
       font-weight: 700;
+
+      @media screen and (max-width: 380px) {
+        font-size: 30px;
+      }
     }
 
     h2:last-of-type {
@@ -98,6 +106,10 @@
     span {
       letter-spacing: 2px;
       font-size: 30px;
+
+      @media screen and (max-width: 380px) {
+        font-size: 24px;
+      }
     }
   }
   .first-model-img {
@@ -194,7 +206,12 @@
         font-family: "Bodoni Moda", serif;
         font-size: 35px;
         font-weight: 300;
+
+        @media screen and (max-width: 380px) {
+          font-size: 25px;
+        }
       }
+
       h3:last-of-type {
         padding-bottom: 30px;
       }
@@ -202,9 +219,12 @@
         padding-top: 10px;
         padding-left: 20px;
         color: rgb(0, 0, 0);
-
         font-size: 25px;
         font-weight: 200;
+
+        @media screen and (max-width: 380px) {
+          font-size: 20px;
+        }
       }
     }
   }
@@ -236,12 +256,17 @@
       gap: 20px;
       align-items: center;
       justify-content: center;
+      flex-wrap: wrap;
 
       & div {
         text-align: left;
         font-weight: 500;
         letter-spacing: 2px;
         font-size: 30px;
+
+        @media screen and (max-width: 540px) {
+          text-align: center;
+        }
       }
     }
 
@@ -269,14 +294,16 @@
     .certificate {
       background-color: inherit;
       text-align: center;
-      height: 800px;
       padding: 40px 10px;
       margin-left: 20px;
       margin-right: 20px;
       font-weight: 500;
-
       letter-spacing: 2px;
       font-size: 30px;
+
+      @media screen and (max-width: 380px) {
+        font-size: 24px;
+      }
 
       &__title {
         font-weight: 600;
@@ -310,6 +337,11 @@
       align-items: center;
       background-color: #d94453;
 
+      @media screen and (max-width: 380px) {
+        width: 200px;
+        font-size: 14px;
+      }
+
       &:hover {
         background-color: rgba(224, 218, 218, 0.286);
         color: #d94453;
@@ -319,6 +351,10 @@
     .register-btn {
       padding: 20px 23px 20px 23px;
       color: white;
+
+      @media screen and (max-width: 380px) {
+        padding: 20px 10px 20px 10px;
+      }
 
       &:hover {
         color: #d94453;
