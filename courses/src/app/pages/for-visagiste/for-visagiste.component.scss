@@ -2,6 +2,10 @@
   font-family: "Cormorant Garamond", serif;
   background-color: rgb(222, 222, 222);
 
+  hr {
+    margin: 10px auto;
+  }
+
   .header {
     padding: 0px 20px 0px 20px;
     height: 800px;
@@ -33,6 +37,10 @@
       .register-btn {
         padding: 20px 45px 20px 45px;
         color: white;
+
+        @media screen and (max-width: 380px) {
+          padding: 20px 15px 20px 15px;
+        }
       }
       .button__arrow {
         width: 25px;
@@ -52,6 +60,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media screen and (max-width: 380px) {
+          width: 188px;
+          font-size: 14px;
+        }
 
         &:hover {
           background-color: #d94453;
@@ -76,7 +89,6 @@
 
     hr {
       display: block;
-      margin: 10px auto;
       width: 100px;
       color: black;
     }
@@ -106,11 +118,15 @@
     background-image: url(../../../assets/img/model2.jpg);
     padding-top: 10px;
     color: black;
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     overflow: hidden;
+
+    @media screen and (max-width: 380px) {
+      justify-content: space-evenly;
+    }
+
     hr {
       margin-bottom: 20px;
     }
@@ -121,13 +137,23 @@
       font-family: "Bodoni Moda", serif;
       font-size: 35px;
       font-weight: 300;
+
+      @media screen and (max-width: 380px) {
+        font-size: 26px;
+      }
     }
+
     li {
       color: white;
       font-family: "Bodoni Moda", serif;
       font-size: 23px;
       font-weight: 200;
+
+      @media screen and (max-width: 380px) {
+        font-size: 16px;
+      }
     }
+
     .lessons {
       padding-top: 10px;
     }
@@ -316,3 +342,13 @@
     }
   }
 }
+
+// @media (max-width: 380px) {
+//   .container {
+//     .header {
+//       .button {
+//         width: 88px;
+//       }
+//     }
+//   }
+// }
