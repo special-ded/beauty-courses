@@ -63,6 +63,21 @@
       }
 
       .button {
+        font-size: 18px;
+        font-weight: 700;
+        margin: auto;
+        border: 1px solid red;
+        border-top-width: 1px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        width: 288px;
+        height: 50px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         @media screen and (max-width: 380px) {
           width: 188px;
           font-size: 16px;
@@ -325,9 +340,11 @@
         padding-top: 10px;
         padding-bottom: 40px;
       }
+
       &__lessons {
         padding-top: 40px;
       }
+
       &__price {
         font-weight: 600;
         font-size: 38px;
@@ -336,6 +353,20 @@
     }
 
     .button {
+      font-size: 18px;
+      font-weight: 700;
+      margin: auto;
+      border: 1px solid red;
+      border-top-width: 1px;
+      border-right-width: 0px;
+      border-bottom-width: 1px;
+      border-left-width: 1px;
+      width: 288px;
+      height: 50px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color: #d94453;
 
       @media screen and (max-width: 380px) {
