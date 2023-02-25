@@ -25,6 +25,7 @@
       font-size: 40px;
       color: #d94453;
     }
+
     .title p {
       font-size: 20px;
       color: white;
@@ -32,13 +33,16 @@
     }
 
     .wrapper {
+      font-family: "Cormorant Garamond", serif;
       padding-top: 500px;
 
       @media screen and (max-width: 380px) {
+        font-family: "Cormorant Garamond", serif;
         padding-top: 400px;
       }
 
       @media screen and (min-width: 1200px) {
+        font-family: "Cormorant Garamond", serif;
         padding-top: 700px;
       }
 
@@ -49,6 +53,7 @@
       }
 
       .register-btn {
+        font-family: "Cormorant Garamond", serif;
         padding: 20px 45px 20px 45px;
         color: white;
 
