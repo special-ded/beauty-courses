@@ -81,7 +81,7 @@
 
         @media screen and (max-width: 380px) {
           width: 188px;
-          font-size: 16px;
+          font-size: 14px;
         }
 
         .register-btn {
@@ -126,9 +126,11 @@
       width: 100px;
       color: black;
     }
+
     .number {
       font-size: 33px;
     }
+
     span {
       letter-spacing: 2px;
       font-size: 30px;
@@ -138,6 +140,7 @@
       }
     }
   }
+
   .first-model-img {
     padding: 0px 20px 0px 20px;
     height: 800px;
@@ -195,6 +198,7 @@
     .lessons {
       padding-top: 10px;
     }
+
     p {
       padding-bottom: 5px;
       font-size: 18px;
@@ -243,6 +247,7 @@
       }
       li {
         padding-top: 10px;
+        padding-right: 10px;
         padding-left: 20px;
         color: rgb(0, 0, 0);
         font-size: 25px;
@@ -416,6 +421,7 @@
       align-items: baseline;
       flex-wrap: wrap;
       gap: 30px;
+      padding-bottom: 20px;
     }
   }
 }
